@@ -1,0 +1,98 @@
+/*
+Theme Name: Bielawski Krag
+Description: Stworzony dla jednostek ZHP z Bielawy
+Author URI: www.bartoszpasternak.pl
+Version: 0.1
+Author: Bartosz Pasternak HO
+*/
+@import  "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$bg-color1: #1BCFED;
+$bg-logo: #1BCFED;
+$bg-nav: #0BBAED;
+$bg-lig: #ebebeb;
+$bg-blgray: #4da3ff;
+
+
+.bg-color1 {
+    background-color: $bg-logo;
+        img{
+            max-height: 150px;
+        }
+}
+.bg-nav {
+    background-color: $bg-nav;
+}
+
+.card {
+    border: none;
+    background-color: $bg-lig;
+}
+
+h6{
+    font-size: 0.8em;
+}
+
+.btn-outline-primary {
+    border-width: 2px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: $bg-lig;
+}
+
+footer{
+    color: white;
+    font-size: 14px;
+}
+
+.post-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.h-max{
+    max-height: 100px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-blgray{
+  background-color: $bg-blgray;
+}
+
+.bg-blgray img{
+    transition: all 1s;
+}
+
+.bg-blgray img:hover{
+  transform: scale(1.1);
+}
+
+
+.navbar .dropdown-menu li {
+  width: 100%;
+  margin-left: 0 !important;
+}
+.dropdown-menu{
+  background-color: $bg-nav
+}
+
+.dropdown-menu a{
+  margin-left: 15px;
+}
+
+.navbar a.nav-link:hover{
+  background-color: lighten($bg-nav, 5%) !important;
+}
+
+.responsiveCal {
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+}
+
+.responsiveCal iframe {
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+}
